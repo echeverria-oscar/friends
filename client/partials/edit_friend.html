@@ -1,0 +1,8 @@
+
+<h2>Edit Friend {{test}}</h2>
+<form ng-submit='updateFriend()'>
+  <p>First Name: <input type="text"  ng-model="editedFriend.first_name" placeholder="{{friend.first_name}}"></p>
+  <p>Last Name: <input type="text" ng-model="editedFriend.last_name" placeholder="{{friend.last_name}}"></p>
+  <p>Date of Birth: <input type="date" ng-model="editedFriend.dob" placeholder="{{friend.dob.slice(0,10)}}"></p>
+  <input type="submit">
+</form>

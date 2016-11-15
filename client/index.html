@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello</title>
+    <script type="text/javascript" src='bower_components/angular/angular.js'></script>
+    <script type="text/javascript" src='bower_components/angular-route/angular-route.js'></script>
+    <script type="text/javascript" src='assets/app.js'></script>
+    <script type="text/javascript" src="controllers/create_controller.js"></script>
+    <script type="text/javascript" src='controllers/edit_controller.js'></script>
+    <script type="text/javascript" src='factories/friend_factory.js'></script>
+  </head>
+  <body>
+    <h2>Hello World!</h2>
+    <a href="#/create">Make Friend</a> | <a href="#/edit">Edit</a>
+    <div ng-view=''>
+
+    </div>
+  </body>
+</html>
